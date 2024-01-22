@@ -5,6 +5,7 @@
 }
 body{
     background-image: url('./img/coffee-6765818_1280.jpg');
+    opacity: 0.5;
 }
 html{
     overflow-x: hidden;
