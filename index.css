@@ -118,5 +118,8 @@ section h3 {
 .lista-lanches button {
     background-color:green;
     width:100%;
-    color:#green;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    
 } 
