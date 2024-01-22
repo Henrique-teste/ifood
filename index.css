@@ -94,6 +94,7 @@ section h3 {
 #lanche-1 {
     width: 350px;
     height: 180px;
+    border-radius:10px;
 }
 .lista-lanches{
     justify-content: space-between;
