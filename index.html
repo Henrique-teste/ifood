@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IFOOD</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Oswald&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Ifood</h1>
+            <h1>!QueroLanche</h1>
             <div class="menu-hamburguer">
                 <span></span>
                 <span></span>
@@ -35,11 +35,48 @@
             </div>
         </nav>
     </header>
+    <section id="loja">
+        <div class="container container-flex">
+            <img src="./img/Loja.jpg" alt="Loja">
+            <div class="sobre-a-loja">
+                <h2>Sobre a loja</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis aperiam laboriosam fuga aliquam at quam unde dolores voluptatem harum velit ad laborum asperiores illo debitis illum deserunt, sunt eveniet tempore?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, nihil temporibus? Obcaecati qui quo pariatur? Porro, ut, odit fuga voluptas aperiam repellat magnam dolores inventore, vel quam cum praesentium corrupti?</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h3>Sessão de compras</h3>
+        <div class="container container-flex">
+            <img id="lanche-1"src="./img/burger-6309618_640.jpg" alt="Loja">
+            <div class="lista-lanches">
+                <h4>Whopper furioso</h4>
+                <p>Duas carnes de picanha, duas fatias de queijo, recheado de calabresa e ovos fritos</p>
+                <strong>R$25,00</strong>
+                <button type="button">EU QUERO!</button>
+            </div>
+            <img id="lanche-1"src="./img/burger-6309618_640.jpg" alt="Loja">
+            <div class="lista-lanches">
+                <h4>Whopper furioso</h4>
+                <p>Duas carnes de picanha, duas fatias de queijo, recheado de calabresa e ovos fritos</p>
+                <strong>R$25,00</strong>
+                <button type="button">EU QUERO!</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script>
-        $('.menu-hamburguer').click(function(){
-            $('nav').slideToggle();
-        })
+        <script>
+        $(document).ready(function(){
+            $('.menu-hamburguer').click(function(){
+                $('nav').slideToggle();
+            })
+            })
     </script>
 </body>
 </html>
