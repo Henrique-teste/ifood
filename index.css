@@ -5,6 +5,7 @@
 }
 body{
     background-image: url('./img/coffee-6765818_1280.jpg');
+    background-color:rgba(0,0,0,0.3)
 }
 html{
     overflow-x: hidden;
@@ -123,8 +124,4 @@ section h3 {
     border-radius:10px;
     padding:5px;
     
-}
-#compras {
-    background-image: url("./img/coffee-6634858_1920.jpg");
-    background-size: cover;
 }
