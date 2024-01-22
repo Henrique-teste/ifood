@@ -115,3 +115,8 @@ section h3 {
     font-family: 'Oswald', sans-serif;
     margin:10px 0;
 }
+.lista-lanches button {
+    background-color:green;
+    width:100%;
+    color:#fff;
+} 
