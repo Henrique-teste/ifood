@@ -129,4 +129,9 @@ section h3 {
     background-image: url("./img/coffee-6634858_1920.jpg");
     background-size: cover;
 }
+form{
+    max-width:200px;
+    width:100%;
+    align-items:center;
+}
 
