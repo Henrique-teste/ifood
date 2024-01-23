@@ -141,6 +141,7 @@ form{
 }
 .formulario{
     color:#fff;
+    font-size: 3rem;
     max-width:250px;
     background-image: url("./img/coffee-6634858_1920.jpg");
 }
