@@ -130,12 +130,16 @@ section h3 {
     background-size: cover;
 }
 form{
-    max-width:500px;
+    max-width:200px;
     width:100%;
     align-items:center;
 }
 .formulario h1 {
     text-align:center;
+    color:#fff;
+    margin-bottom:10px;
+}
+.formulario{
     color:#fff;
 }
 
