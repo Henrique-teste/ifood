@@ -126,6 +126,7 @@ section h3 {
     padding:5px;    
 }
 #compras {
+    margin-top:20px;
     background-image: url("./img/coffee-6634858_1920.jpg");
     background-size: cover;
 }
