@@ -134,15 +134,4 @@ form{
     width:100%;
     align-items:center;
 }
-.formulario h1 {
-    text-align:center;
-    color:#fff;
-    margin-bottom:10px;
-}
-.formulario{
-    color:#fff;
-    font-size: 30px;
-    max-width:250px;
-    background-image: url("./img/coffee-6634858_1920.jpg");
-}
 
